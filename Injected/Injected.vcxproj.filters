@@ -41,5 +41,8 @@
     <ClInclude Include="Log.hpp">
       <Filter>Util</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Wow</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -22,6 +22,7 @@
     <ClCompile Include="DllMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.hpp" />
     <ClInclude Include="CDataStore.hpp" />
     <ClInclude Include="CommonDetours.hpp" />
     <ClInclude Include="Detour.hpp" />
