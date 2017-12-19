@@ -49,10 +49,10 @@ inline auto Forward()
 inline auto View()
 {
 	auto cam = GetActiveCamera();
-	D3DXVECTOR3 eye = cam->Position;
-	D3DXVECTOR3 at = eye + Forward();
+	auto eye = cam->Position;
+	auto at = eye + Forward();
 	D3DXVECTOR3 up = { 0, 0, 1 };
-	D3DXMATRIX matrix;
+	D3DXMATRIX matrix{};
 	D3DXMatrixLookAtRH(&matrix, &eye, &at, &up);
 	return matrix;
 }
